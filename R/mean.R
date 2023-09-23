@@ -15,4 +15,5 @@
 
 mean <- function(x){
   mean(x)
+  mean(x)
 }
