@@ -1,12 +1,21 @@
-#' p
+
+
+#' pythagorean
 #' The second section is a longer description of the function.
 #' This can go on for multiple lines.
-#'
 #' @param x numeric vector
 #' @export
 
-p <- function(a,b,c) {
+pythagorean <- function(x,y) {
 
-  c^2 = a^2 + b^2
+  squared_r =  x^2 + y^2
 
-  }
+  r<- sqrt(squared_r)
+
+  print(r)
+
+}
+
+pythagorean(3,4)
+
+
